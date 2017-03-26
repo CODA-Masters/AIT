@@ -1,6 +1,6 @@
 from django.conf.urls import patterns, url
 from django.views.decorators.csrf import csrf_exempt
-from ControlUsuarios import views
+from UserManagement import views
 
 urlpatterns = patterns('',
         url(r'^$', views.index, name='index'),

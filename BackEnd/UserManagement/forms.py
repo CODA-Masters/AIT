@@ -1,6 +1,6 @@
 from django import forms
 from django.contrib.auth.models import User
-from ControlUsuarios.models import *
+from UserManagement.models import *
 
 
 from bson import Binary, Code
@@ -8,7 +8,7 @@ from bson.json_util import dumps
 from bson.json_util import loads
 import json
 import os
-from ControlUsuarios.views import *
+from UserManagement.views import *
 
 
 from django.template import RequestContext

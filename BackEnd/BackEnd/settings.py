@@ -37,7 +37,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'ControlUsuarios'
+    'UserManagement'
 )
 
 MIDDLEWARE_CLASSES = (
@@ -52,7 +52,7 @@ MIDDLEWARE_CLASSES = (
 )
 
 ROOT_URLCONF = 'BackEnd.urls'
-AUTH_PROFILE_MODULE = 'ControlUsuarios.UserProfile'
+AUTH_PROFILE_MODULE = 'UserManagement.UserProfile'
 
 
 WSGI_APPLICATION = 'BackEnd.wsgi.application'

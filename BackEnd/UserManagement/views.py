@@ -3,8 +3,8 @@ from django.contrib.auth import authenticate, login
 from django.contrib.auth import logout
 from django.contrib.auth.decorators import login_required
 import time
-from ControlUsuarios.forms import *
-from ControlUsuarios.models import UserProfile
+from UserManagement.forms import *
+from UserManagement.models import UserProfile
 # Create your views here.
 from django.http import HttpResponse
 from django.shortcuts import render
