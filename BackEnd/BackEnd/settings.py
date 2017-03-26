@@ -85,7 +85,13 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.8/howto/static-files/
-
+TEMPLATES = [
+    {
+        'OPTIONS': {
+            'debug': DEBUG,
+        },
+    },
+]
 STATIC_URL = '/static/'
 TEMPLATE_PATH = os.path.join(BASE_DIR, 'templates')   # esto es igual para las dos versiones
 TEMPLATE_DIRS = (
